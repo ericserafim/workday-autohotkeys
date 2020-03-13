@@ -1,6 +1,6 @@
 # Workday AutoHotKeys
 
-Here you'll find some utilities/scripts that can make your workday better.
+Here you'll find some utilities/scripts that can make your workday easier.
 To run these scripts, you need to install AutoHotKey language https://www.autohotkey.com/
 
 ## Snippets
