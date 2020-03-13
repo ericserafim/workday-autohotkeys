@@ -15,7 +15,7 @@ In this script you can include all scripts that you want by running only one fil
 
 
 ## Tip
-To fix the script on Windows Startup, try:
+To fix the script on Windows Startup, access startup folder and crete a shortcut for your script:
 
 `These programs start up for the current logged in user only. To directly access this folder, open Run, type shell:startup and hit Enter.`
 
