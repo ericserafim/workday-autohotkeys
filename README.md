@@ -12,3 +12,11 @@ Here you can find some method to change either Skype or MS Teams status by using
 
 ## Master
 In this script you can include all scripts that you want by running only one file.
+
+
+## Tip
+To fix the script on Windows Startup, try:
+
+`These programs start up for the current logged in user only. To directly access this folder, open Run, type shell:startup and hit Enter.`
+
+![Shell:startup](https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2013/05/Windows-8-startup-folder-location.jpg)
