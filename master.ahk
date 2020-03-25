@@ -9,7 +9,7 @@ SnippetsInit()
 #Include skype.ahk
 #Include msteams.ahk
 
-; Shortcuts CTRL + WIN + 1, 2, 3 or 4
+; Shortcuts CTRL + WIN + 1, 2, 3, 4 or 5
 ^#1::
 SetStatusTo("available")
 return
@@ -24,6 +24,10 @@ return
 
 ^#4::
 SetStatusTo("offline")
+return
+
+^#5::
+SetStatusTo("dnd")
 return
 
 SetStatusTo(status) 

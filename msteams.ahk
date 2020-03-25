@@ -20,6 +20,10 @@ MsTeams_SetStatusTo(Status)
 		MsTeams_Send_Offline()
 	}	
 	
+	If (Status = "dnd") {		
+		MsTeams_Send_DoNotDisturb()
+	}	
+	
 	Sleep, 1500
 	Send !{F4}
 	return	
@@ -48,4 +52,11 @@ MsTeams_Send_Busy() {
 
 MsTeams_Send_Offline() {
 	MsTeams_Send_Away()
+}
+
+MsTeams_Send_DoNotDisturb() {
+	Send ^e
+	SendInput /dnd
+	Sleep, 1000
+	Send {Enter}	
 }

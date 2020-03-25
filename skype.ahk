@@ -27,6 +27,10 @@ Skype_SetStatusTo(Status)
 		Skype_Send_Offline()
 	}	
 	
+	If (Status = "dnd") {		
+		Skype_Send_DoNotDisturb()
+	}
+	
 	WinHide, %skype_instance%
 	return	
 }
@@ -53,4 +57,10 @@ Skype_Send_Offline() {
 	Send !f
 	Send !m
 	Send !f
+}
+
+Skype_Send_DoNotDisturb() {
+	Send !f
+	Send !m
+	Send !d
 }
