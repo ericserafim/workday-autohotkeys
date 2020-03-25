@@ -11,11 +11,11 @@ You can customize the texts in the "snippets.ini" file
 ## Skype and Microsoft Teams
 Here you can find some method to change either Skype or MS Teams status by using a shortcut.
 Shortcuts 
- CTRL + WIN + 1: Define your status as Avaible
- CTRL + WIN + 2: Define your status as Away
- CTRL + WIN + 3: Define your status as Busy
- CTRL + WIN + 4: Define your status as Offline (on MS Teams it's gonna be Away)
- CTRL + WIN + 5: Define your status as Do not disturb
+* CTRL + WIN + 1: Define your status as Avaible
+* CTRL + WIN + 2: Define your status as Away
+* CTRL + WIN + 3: Define your status as Busy
+* CTRL + WIN + 4: Define your status as Offline (on MS Teams it's gonna be Away)
+* CTRL + WIN + 5: Define your status as Do not disturb
 
 
 ## Master
